@@ -9,5 +9,5 @@ searchForm.addEventListener('submit', e => {
 searchBtn.addEventListener('click', async () => {
     if (!searchInput.value) return;
     // get data from weather();            *** NEEDS FINISHING ***
-    // set obtained data to view();        *** NEEDS FINISHING ***
+    // set obtained data to display();        *** NEEDS FINISHING ***
 })
