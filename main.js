@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log('yo KIV');\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("const searchForm = document.getElementById('searchForm');\nconst searchInput = document.getElementById('searchInput');\nconst searchBtn = document.getElementById('searchBtn');\n\nsearchForm.addEventListener('submit', e => {\n    e.preventDefault()\n})\n\nsearchBtn.addEventListener('click', async () => {\n    if (!searchInput.value) return;\n    // get data from weather();            *** NEEDS FINISHING ***\n    // set obtained data to view();        *** NEEDS FINISHING ***\n})\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ })
 
