@@ -6,7 +6,10 @@ const weather = (() => {
             wind: { speed: windSpeed },
         } = data;
 
-        return { cityName, temperature, feelsLike, humidity, windSpeed, pressure };
+        const temperatureCelsius = temperature - 273.15;
+        const feelsLikeCelsius = feelsLike - 273.15;
+
+        return { cityName, temperature: temperatureCelsius.toFixed(2), feelsLike: feelsLikeCelsius.toFixed(2), humidity, windSpeed, pressure };
     }
 
     async function getData(city) {
@@ -24,6 +27,5 @@ const weather = (() => {
     return { getData };
 })();
 
-weather.getData('London').then(data => {
-    console.log(data);
-});
+
+export default weather;
