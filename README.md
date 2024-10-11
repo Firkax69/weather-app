@@ -10,7 +10,7 @@ Search for a specific location.
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
 
 🧐 Features<br/>
-Here're some of the project's best features:<br/>
+### Here're some of the project's best features:<br/>
 Form Handling<br/>
 API Integration<br/>
 Form Handling<br/>
@@ -19,7 +19,7 @@ Use async/await or promises to handle the asynchronous requests to the APIs<br/>
 Open API key, no security required<br/>
 
 💻 Built with<br/>
-Technologies used in the project:<br/>
+### Technologies used in the project:<br/>
 Webpack<br/>
 CSS<br/>
 JavaScript<br/>
